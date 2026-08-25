@@ -3,7 +3,7 @@ const auth = require("json-server-auth");
 const moment = require("moment");
 
 const server = jsonServer.create();
-const router = jsonServer.router("./db/db.json");
+const router = jsonServer.router("./db.json");
 
 const middlewares = jsonServer.defaults();
 
