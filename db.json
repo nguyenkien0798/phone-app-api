@@ -9,6 +9,16 @@
       "createdAt": 1638778661611,
       "updatedAt": 1638778661611,
       "id": 1
+    },
+    {
+      "email": "kiennguyen123@gmail.com",
+      "password": "$2a$10$tGuZ9DtoCOutnusA..U3d.u3SSXQoMdNDFXJqaRxUaMV5xTxpXtky",
+      "name": "KienND",
+      "role": "admin",
+      "gender": "male",
+      "createdAt": 1768834640451,
+      "updatedAt": 1768834640451,
+      "id": 2
     }
   ],
   "products": [
@@ -17,7 +27,7 @@
       "name": "iPhone 13 Pro Max 1TB",
       "price": 60000000,
       "isNew": true,
-      "image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/9/15/637673213598401263_iphone-13-pro-max-dd-1.jpg",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-pro-max-blue-select?wid=470&hei=556&fmt=png-alpha",
       "categoryId": 1,
       "screen": "6.7 inch, Super Retina XDR, OLED, 2778 x 1284 Pixel",
       "camera": "12.0 MP + 12.0 MP, 12.0 MP",
@@ -27,14 +37,15 @@
       "gpu": "Apple GPU 5 nhân",
       "pin": "4352 mAh",
       "sim": "2, 1 eSIM, 1 Nano SIM",
-      "hdh": "iOS 15"
+      "hdh": "iOS 15",
+      "updatedAt": 1787392174161
     },
     {
       "id": 2,
       "name": "iPhone 13",
       "price": 25000000,
       "isNew": true,
-      "image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/9/15/637673224696649012_iphone-13-dd-1.jpg",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-blue-select-2021?wid=470&hei=556&fmt=png-alpha",
       "categoryId": 1,
       "screen": "6.1 inch, Super Retina XDR, OLED, 2532 x 1170 Pixel",
       "camera": "12.0 MP + 12.0 MP, 12.0 MP",
@@ -44,14 +55,15 @@
       "gpu": "Apple GPU 4 nhân",
       "pin": "3225 mAh",
       "sim": "2, 1 eSIM, 1 Nano SIM",
-      "hdh": "iOS 15"
+      "hdh": "iOS 15",
+      "updatedAt": 1787392174162
     },
     {
       "id": 3,
       "name": "iPhone 13 Mini",
       "price": 23000000,
       "isNew": true,
-      "image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/9/15/637673224696649012_iphone-13-dd-1.jpg",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-mini-blue-select-2021?wid=470&hei=556&fmt=png-alpha",
       "categoryId": 1,
       "screen": "5.4 inch, Super Retina XDR, OLED, 1080 x 2340 Pixel",
       "camera": "12.0 MP + 12.0 MP, 12.0 MP",
@@ -61,14 +73,15 @@
       "gpu": "Apple GPU 4 nhân",
       "pin": "2406 mAh",
       "sim": "2, 1 eSIM, 1 Nano SIM",
-      "hdh": "iOS 15"
+      "hdh": "iOS 15",
+      "updatedAt": 1787392174162
     },
     {
       "id": 4,
       "name": "iPhone 13 Pro",
       "price": 27000000,
       "isNew": true,
-      "image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/9/15/637673213598401263_iphone-13-pro-max-dd-1.jpg",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-pro-blue-select?wid=470&hei=556&fmt=png-alpha",
       "categoryId": 1,
       "screen": "6.1 inch, Super Retina XDR, OLED, 2532 x 1170 Pixel",
       "camera": "12.0 MP + 12.0 MP + 12.0 MP, 12.0 MP",
@@ -78,14 +91,15 @@
       "gpu": "Apple GPU 5 nhân",
       "pin": "3095 mAh",
       "sim": "2, 1 eSIM, 1 Nano SIM",
-      "hdh": "iOS 15"
+      "hdh": "iOS 15",
+      "updatedAt": 1787392174163
     },
     {
       "id": 5,
       "name": "iPhone 13 Pro Max",
       "price": 30000000,
       "isNew": true,
-      "image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/9/15/637673213598401263_iphone-13-pro-max-dd-1.jpg",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-pro-max-gold-select?wid=470&hei=556&fmt=png-alpha",
       "categoryId": 1,
       "screen": "6.7 inch, Super Retina XDR, OLED, 2778 x 1284 Pixel",
       "camera": "12.0 MP + 12.0 MP + 12.0 MP, 12.0 MP",
@@ -95,49 +109,15 @@
       "gpu": "Apple GPU 5 nhân",
       "pin": "4352 mAh",
       "sim": "2, 1 eSIM, 1 Nano SIM",
-      "hdh": "iOS 15"
-    },
-    {
-      "id": 6,
-      "name": "Xiaomi Mi 11",
-      "price": 15000000,
-      "isNew": false,
-      "image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/4/1/637528847781369467_xiaomi-mi-11-pro-dd.jpg",
-      "categoryId": 3,
-      "content": "<h4>Thiết kế nổi bật với cụm camera độc nhất</h4><p>Có thể thấy, điểm sáng trong thiết kế của Mi 11 đến từ cụm 3 camera mặt sau được đặt trong mô-đun hình vuông, được phân tầng với 2 lớp kính tạo nên sự khác biệt và nổi bật ngay từ cái nhìn đầu tiên.</p><p><a href='https://www.thegioididong.com/images/42/226264/xiaomi-mi-11-002.jpg' target='_blank' style='color: rgb(21, 94, 193);'><img src='https://cdn.tgdd.vn/Products/Images/42/226264/xiaomi-mi-11-002.jpg' alt='Xiaomi Mi 11 | Thiết kế với cụm camera độc đáo'></a></p>",
-      "screen": "6.81 inch, 1440 x 3200 Pixel",
-      "camera": "108 MP + 13 MP + 5 MP, 20 MP",
-      "ram": "8 GB",
-      "rom": "128 GB",
-      "cpu": "Qualcomm SM8350 Snapdragon 888 5G (5nm) 8 nhân",
-      "gpu": "Adreno 660",
-      "pin": "4600 mAh",
-      "sim": "2, Nano SIM",
-      "hdh": "Android 11, MIUI 12.5"
-    },
-    {
-      "name": "Samsung Galaxy S21",
-      "categoryId": 2,
-      "price": 15000000,
-      "isNew": true,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOqxcCD0-yLscd9vfwCsdr2Z_PQbudOSE8WQ&usqp=CAU",
-      "id": 7,
-      "screen": "6.8 inch, WQHD+, Dynamic AMOLED 2X, 1440 x 3200 Pixel",
-      "camera": "108.0 MP + 10.0 MP + 12.0 MP + 10.0 MP, 40.0 MP",
-      "ram": "12 GB",
-      "rom": "128 GB",
-      "cpu": "Exynos 2100",
-      "gpu": "ARM Mali-G78 MP14",
-      "pin": "5000 mAh",
-      "sim": "2, 2 Nano SIM hoặc 1 eSIM, 1 Nano SIM",
-      "hdh": "Android 11"
+      "hdh": "iOS 15",
+      "updatedAt": 1787392174163
     },
     {
       "name": "iPhone 12 Pro",
       "categoryId": 1,
       "price": 17000000,
       "isNew": false,
-      "image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/10/14/637382721010154236_ip-12-pro-max-dd.png",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-pro-blue-hero?wid=470&hei=556&fmt=png-alpha",
       "id": 8,
       "screen": "6.1 inch, Super Retina XDR, OLED, 2532 x 1170 Pixel",
       "camera": "12.0 MP + 12.0 MP + 12.0 MP, 12.0 MP",
@@ -147,14 +127,15 @@
       "gpu": "Apple GPU 4 nhân",
       "pin": "2815 mAh",
       "sim": "2, 1 eSIM, 1 Nano SIM",
-      "hdh": "iOS 14"
+      "hdh": "iOS 14",
+      "updatedAt": 1787392174163
     },
     {
       "id": 9,
       "name": "iPhone 12 Pro Max",
       "price": 19000000,
       "isNew": true,
-      "image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/10/14/637382721010154236_ip-12-pro-max-dd.png",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-pro-max-graphite-hero?wid=470&hei=556&fmt=png-alpha",
       "categoryId": 1,
       "screen": "6.7 inch, Super Retina XDR, OLED, 2778 x 1284 Pixel",
       "camera": "12.0 MP + 12.0 MP + 12.0 MP, 12.0 MP",
@@ -164,31 +145,15 @@
       "gpu": "Apple GPU 4 nhân",
       "pin": "3687 mAh",
       "sim": "2, 1 eSIM, 1 Nano SIM",
-      "hdh": "iOS 14"
-    },
-    {
-      "id": 10,
-      "name": "Samsung Galaxy Note 10",
-      "price": 20000000,
-      "isNew": true,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwjCdY8j4j21SDWBM-fwQ5T3S7mzUcmrvntQ&usqp=CAU",
-      "categoryId": 2,
-      "screen": "6.7 inch, FHD+, Super AMOLED, 1080 x 2400 Pixel",
-      "camera": "12.0 MP + 12.0 MP + 12.0 MP, 32.0 MP",
-      "ram": "8 GB",
-      "rom": "128 GB",
-      "cpu": "Exynos 9810",
-      "gpu": "ARM Mali-G72 MP18",
-      "pin": "4500 mAh",
-      "sim": "2, Nano SIM",
-      "hdh": "Android 10.0"
+      "hdh": "iOS 14",
+      "updatedAt": 1787392174163
     },
     {
       "id": 11,
       "name": "iPhone Xs",
       "price": 9000000,
       "isNew": false,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAGsMPI8-xQWO6c4g7segWsSoOCK0MUxksew&usqp=CAU",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-xs-gold-select-2018?wid=470&hei=556&fmt=png-alpha",
       "categoryId": 1,
       "screen": "5.8 inch, Super Retina, OLED, 1125 x 2436 Pixel",
       "camera": "12.0 MP + 12.0 MP, 7.0 MP",
@@ -198,14 +163,15 @@
       "gpu": "Apple GPU 4 nhân",
       "pin": "2658 mAh",
       "sim": "2, 1 eSIM, 1 Nano SIM",
-      "hdh": "iOS 12"
+      "hdh": "iOS 12",
+      "updatedAt": 1787392174164
     },
     {
       "id": 12,
       "name": "iPhone Xs Max",
       "price": 12000000,
       "isNew": false,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaQ-3EzUbgOXpu9X1nwYHW5si3rNpxGgGliw&usqp=CAU",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-xs-max-gold-select-2018?wid=470&hei=556&fmt=png-alpha",
       "categoryId": 1,
       "screen": "6.5 inch, Super Retina, OLED, 1242 x 2688 Pixel",
       "camera": "12.0 MP + 12.0 MP, 7.0 MP",
@@ -215,14 +181,15 @@
       "gpu": "Apple GPU 4 nhân",
       "pin": "3174 mAh",
       "sim": "2, 1 eSIM, 1 Nano SIM",
-      "hdh": "iOS 12"
+      "hdh": "iOS 12",
+      "updatedAt": 1787392174164
     },
     {
       "id": 13,
       "name": "iPhone 8",
       "price": 6000000,
       "isNew": false,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtRMKicWKq9fb5vnNK-PNwtFx87GaFMD30UA&usqp=CAU",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone8-gold-select-2018?wid=470&hei=556&fmt=png-alpha",
       "categoryId": 1,
       "screen": "6.5 inch, Super Retina, OLED, 1242 x 2688 Pixel",
       "camera": "12.0 MP + 12.0 MP, 7.0 MP",
@@ -232,14 +199,15 @@
       "gpu": "Apple GPU 3 nhân",
       "pin": "2691 mAh",
       "sim": "1 Nano SIM",
-      "hdh": "iOS 11"
+      "hdh": "iOS 11",
+      "updatedAt": 1787392174165
     },
     {
       "id": 14,
       "name": "iPhone 8 Plus",
       "price": 7000000,
       "isNew": false,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTIFbw5Vo3kC2bWVGieY7V2Ue20k0N8KiwlA&usqp=CAU",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone8-plus-gold-select-2018?wid=470&hei=556&fmt=png-alpha",
       "categoryId": 1,
       "screen": "5.5 inch, LED-backlit IPS LCD, Retina HD",
       "camera": "12.0 MP + 12.0 MP, 7.0 MP",
@@ -249,14 +217,15 @@
       "gpu": "Apple GPU 3 nhân",
       "pin": "2691 mAh",
       "sim": "1 Nano SIM",
-      "hdh": "iOS 11"
+      "hdh": "iOS 11",
+      "updatedAt": 1787392174165
     },
     {
       "id": 15,
       "name": "iPhone 7",
       "price": 4500000,
       "isNew": false,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7X-daeyf2JKh2W2qi3tyKRnBPAfjZhfCeNQ&usqp=CAU",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone7-select-2016?wid=470&hei=556&fmt=png-alpha",
       "categoryId": 1,
       "screen": "4.7 inch, IPS LCD, 750 x 1334 Pixel",
       "camera": "12.0 MP + 12.0 MP, 7.0 MP",
@@ -266,14 +235,15 @@
       "gpu": "PowerVR Series7XT Plus 6 nhân",
       "pin": "1960 mAh",
       "sim": "1 Nano SIM",
-      "hdh": "iOS 10"
+      "hdh": "iOS 10",
+      "updatedAt": 1787392174165
     },
     {
       "id": 16,
       "name": "iPhone 7 Plus",
       "price": 5500000,
       "isNew": false,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrcfwqeWsAb4Sfu8WQSAqzVl4WmKeidR9n_Q&usqp=CAU",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone7-plus-black-select-2016?wid=470&hei=556&fmt=png-alpha",
       "categoryId": 1,
       "screen": "5.5 inch, IPS LCD, 1080 x 1920 Pixel",
       "camera": "12.0 MP + 12.0 MP, 7.0 MP",
@@ -283,208 +253,194 @@
       "gpu": "PowerVR Series7XT Plus 6 nhân",
       "pin": "2900 mAh",
       "sim": "1 Nano SIM",
-      "hdh": "iOS 10"
+      "hdh": "iOS 10",
+      "updatedAt": 1787392174169
     },
     {
       "id": 17,
-      "name": "Samsung Galaxy A52s 5G",
-      "price": 9990000,
+      "name": "MacBook Air M2 13 inch",
+      "price": 24990000,
       "isNew": true,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWXi-v7dp1ZcwJ0FN_Z9q4BfrphQfyJZjt0A&usqp=CAU",
+      "soldCount": 157,
+      "salePercent": 8,
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-midnight-select-20220606?wid=470&hei=556&fmt=png-alpha",
       "categoryId": 2,
-      "screen": "6.5 inch, FHD+, Super AMOLED, 1080 x 2400 Pixel",
-      "camera": "64.0 MP + 12.0 MP + 5.0 MP + 5.0 MP, 32.0 MP",
+      "screen": "Apple Display",
+      "camera": "Apple camera",
       "ram": "8 GB",
-      "rom": "128 GB",
-      "cpu": "Snapdragon 778G",
-      "gpu": "Adreno 642L",
-      "pin": "4500 mAh",
-      "sim": "2, Nano SIM",
-      "hdh": "Android 11.0"
+      "rom": "256 GB",
+      "cpu": "Apple silicon",
+      "gpu": "Apple GPU",
+      "pin": "Lên đến 18 giờ",
+      "sim": "Wi-Fi 6",
+      "hdh": "macOS",
+      "updatedAt": 1787628347888
     },
     {
       "id": 18,
-      "name": "Samsung Galaxy A03s",
-      "price": 3390000,
-      "isNew": false,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8swZFBOXg2EubBt0VdTx79TJowGJxBKv90w&usqp=CAU",
-      "categoryId": 2,
-      "screen": "6.5 inch, HD+, PLS TFT LCD, 720 x 1600 Pixel",
-      "camera": "13.0 MP + 2.0 MP + 2.0 MP, 5.0 MP",
-      "ram": "4 GB",
-      "rom": "64 GB",
-      "cpu": "MediaTek MT6765",
-      "gpu": "IMG PowerVR GE8320",
-      "pin": "5000 mAh",
-      "sim": "2, Nano SIM",
-      "hdh": "Android 11.0"
+      "name": "iPad Air 5 M1 10.9 inch",
+      "price": 14990000,
+      "isNew": true,
+      "soldCount": 142,
+      "salePercent": 10,
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-air-select-wifi-blue-202203?wid=470&hei=556&fmt=png-alpha",
+      "categoryId": 3,
+      "screen": "Apple Display",
+      "camera": "Apple camera",
+      "ram": "8 GB",
+      "rom": "256 GB",
+      "cpu": "Apple silicon",
+      "gpu": "Apple GPU",
+      "pin": "Lên đến 18 giờ",
+      "sim": "Wi-Fi 6",
+      "hdh": "iPadOS",
+      "updatedAt": 1787628347957
     },
     {
       "id": 19,
-      "name": "Samsung Galaxy A22",
-      "price": 5390000,
+      "name": "Apple Watch Series 9 GPS",
+      "price": 10990000,
       "isNew": true,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPjFvMzvbdU_ihRF8xtU4JB8cNrC1mfGDaEQ&usqp=CAU",
-      "categoryId": 2,
-      "screen": "6.6 inch, FHD+, TFT LCD, 1080 x 2400 Pixel",
-      "camera": "48.0 MP + 5.0 MP + 2.0 MP, 8.0 MP",
-      "ram": "6 GB",
-      "rom": "128 GB",
-      "cpu": "MediaTek Dimensity 700",
-      "gpu": "ARM Mali-G57 MC2",
-      "pin": "5000 mAh",
-      "sim": "2, Nano SIM",
-      "hdh": "Android 11.0"
+      "soldCount": 118,
+      "salePercent": 12,
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/s9-case-unselect-gallery-1-202309_GEO_VN?wid=470&hei=556&fmt=png-alpha",
+      "categoryId": 4,
+      "screen": "Apple Display",
+      "camera": "Apple camera",
+      "ram": "8 GB",
+      "rom": "256 GB",
+      "cpu": "Apple silicon",
+      "gpu": "Apple GPU",
+      "pin": "Lên đến 18 giờ",
+      "sim": "Wi-Fi 6",
+      "hdh": "watchOS",
+      "updatedAt": 1787628347991
     },
     {
       "id": 20,
-      "name": "Samsung Galaxy Z Fold3 5G",
-      "price": 39990000,
+      "name": "AirPods Pro 2 USB-C",
+      "price": 6490000,
       "isNew": true,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeDAOGrkFn7ENLJkuM5AtspXvn9NO6XqCYoQ&usqp=CAU",
-      "categoryId": 2,
-      "screen": "Màn hình chính: 7.6 inch, Màn hình phụ: 6.2 inch, HD+, Chính: Dynamic AMOLED 2X, phụ: Dynamic AMOLED 2X, 1768 x 2208 Pixel",
-      "camera": "12.0 MP + 12.0 MP + 12.0 MP, 10.0 MP",
-      "ram": "12 GB",
+      "soldCount": 203,
+      "salePercent": 15,
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-pro-2-hero-select-202409?wid=470&hei=556&fmt=png-alpha",
+      "categoryId": 5,
+      "screen": "Apple Display",
+      "camera": "Apple camera",
+      "ram": "8 GB",
       "rom": "256 GB",
-      "cpu": "Snapdragon 888",
-      "gpu": "---",
-      "pin": "4400 mAh",
-      "sim": "2, 2 Nano SIM hoặc 1 eSIM, 1 Nano SIM",
-      "hdh": "Android 11.0"
+      "cpu": "Apple silicon",
+      "gpu": "Apple GPU",
+      "pin": "Lên đến 18 giờ",
+      "sim": "Wi-Fi 6",
+      "hdh": "Firmware Apple",
+      "updatedAt": 1787628348015
     },
     {
       "id": 21,
-      "name": "Samsung Galaxy Z Flip3 5G 128GB",
-      "price": 22990000,
+      "name": "MacBook Pro 14 M3",
+      "price": 41990000,
       "isNew": true,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfXvy9nbgpTyJdYE1JRbUQy0ODoV_tvLpkYw&usqp=CAU",
+      "soldCount": 97,
+      "salePercent": 0,
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-spacegray-select-202310?wid=470&hei=556&fmt=png-alpha",
       "categoryId": 2,
-      "screen": "Màn hình chính: 6.7 inch, Màn hình phụ: 1.9 inch, FHD+, Chính: Dynamic AMOLED, phụ: Super AMOLED, 1080 x 2636 Pixel",
-      "camera": "12.0 MP + 12.0 MP, 10.0 MP",
+      "screen": "Apple Display",
+      "camera": "Apple camera",
       "ram": "8 GB",
-      "rom": "128 GB",
-      "cpu": "Snapdragon 888",
-      "gpu": "---",
-      "pin": "3300 mAh",
-      "sim": "1, 1 eSIM, 1 Nano SIM",
-      "hdh": "Android 11.0"
+      "rom": "256 GB",
+      "cpu": "Apple silicon",
+      "gpu": "Apple GPU",
+      "pin": "Lên đến 18 giờ",
+      "sim": "Wi-Fi 6",
+      "hdh": "macOS",
+      "updatedAt": 1787628348059
     },
     {
       "id": 22,
-      "name": "Samsung Galaxy S20",
-      "price": 13490000,
-      "isNew": false,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUa62eysp4LxRTub06XKv1BM5zB3tWIPjdzQ&usqp=CAU",
-      "categoryId": 2,
-      "screen": "6.5 inch, FHD+, Super AMOLED, 1080 x 2400 Pixel",
-      "camera": "12.0 MP + 12.0 MP + 8.0 MP, 32.0 MP",
+      "name": "iPhone 15 Pro Max 256GB",
+      "price": 34990000,
+      "isNew": true,
+      "soldCount": 268,
+      "salePercent": 5,
+      "image": "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-15-pro-max_3.png",
+      "categoryId": 1,
+      "screen": "Apple Display",
+      "camera": "Apple camera",
       "ram": "8 GB",
       "rom": "256 GB",
-      "cpu": "Snapdragon 865",
-      "gpu": "---",
-      "pin": "4500 mAh",
-      "sim": "2, Nano SIM",
-      "hdh": "Android 10.0"
+      "cpu": "Apple silicon",
+      "gpu": "Apple GPU",
+      "pin": "Lên đến 18 giờ",
+      "sim": "Wi-Fi 6",
+      "hdh": "iOS 17",
+      "updatedAt": 1787392174171
     },
     {
       "id": 23,
-      "name": "Xiaomi 11T Pro",
-      "price": 14990000,
+      "name": "Magic Keyboard cho iPad Pro",
+      "price": 7990000,
       "isNew": true,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwAbRmav3mgjaEd_tuRkeeIWkiuBKq2q2ddQ&usqp=CAU",
+      "soldCount": 76,
+      "salePercent": 10,
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MXQT2?wid=572&hei=572&fmt=png-alpha",
       "categoryId": 3,
-      "screen": "6.67 inch, FHD+, AMOLED DotDisplay, 1080 x 2400 Pixel",
-      "camera": "108.0 MP + 8.0 MP + 5.0 MP, 16.0 MP",
-      "ram": "12 GB",
+      "screen": "Apple Display",
+      "camera": "Apple camera",
+      "ram": "8 GB",
       "rom": "256 GB",
-      "cpu": "Snapdragon 888",
-      "gpu": "---",
-      "pin": "5000 mAh",
-      "sim": "2, Nano SIM",
-      "hdh": "Android 11.0"
+      "cpu": "Apple silicon",
+      "gpu": "Apple GPU",
+      "pin": "Lên đến 18 giờ",
+      "sim": "Wi-Fi 6",
+      "hdh": "Tương thích iPadOS",
+      "updatedAt": 1787392174172
     },
     {
       "id": 24,
-      "name": "Xiaomi 11 Lite 5G NE",
-      "price": 9290000,
+      "name": "Apple Pencil 2",
+      "price": 2990000,
       "isNew": true,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR75xPwKsrpruJwmCv7ZAxj5cmTJ4RmTjQBg&usqp=CAU",
-      "categoryId": 3,
-      "screen": "6.55 inch, FHD+, AMOLED DotDisplay, 1080 x 2400 Pixel",
-      "camera": "64.0 MP + 8.0 MP + 5.0 MP, 20.0 MP",
+      "soldCount": 89,
+      "salePercent": 7,
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MU8F2?wid=572&hei=572&fmt=png-alpha",
+      "categoryId": 6,
+      "screen": "Apple Display",
+      "camera": "Apple camera",
       "ram": "8 GB",
       "rom": "256 GB",
-      "cpu": "Snapdragon 778G",
-      "gpu": "---",
-      "pin": "4250 mAh",
-      "sim": "2, Nano SIM",
-      "hdh": "Android 11.0"
-    },
-    {
-      "id": 25,
-      "name": "Xiaomi POCO X3 Pro NFC",
-      "price": 7290000,
-      "isNew": true,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRflUeq6skUxzyJ2UpblRYUoJdxPZX5jfml2A&usqp=CAU",
-      "categoryId": 3,
-      "screen": "6.67 inch, FHD+, IPS LCD, 1080 x 2400 Pixel",
-      "camera": "48.0 MP + 8.0 MP + 2.0 MP + 2.0 MP, 20.0 MP",
-      "ram": "8 GB",
-      "rom": "256 GB",
-      "cpu": "Snapdragon 860",
-      "gpu": "Adreno 640",
-      "pin": "5160 mAh",
-      "sim": "2, Nano SIM",
-      "hdh": "Android 11.0"
-    },
-    {
-      "id": 26,
-      "name": "Xiaomi Redmi Note 10 Pro",
-      "price": 7490000,
-      "isNew": true,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEhZxnmPNbVvX1cmC6tpBbYOFPLuYRCJxImw&usqp=CAU",
-      "categoryId": 3,
-      "screen": "6.67 inch, FHD+, AMOLED, 1080 x 2400 Pixel",
-      "camera": "108.0 MP + 8.0 MP + 2.0 MP + 5.0 MP, 16.0 MP",
-      "ram": "8 GB",
-      "rom": "128 GB",
-      "cpu": "Snapdragon 732G",
-      "gpu": "Adreno 618",
-      "pin": "5020 mAh",
-      "sim": "2, Nano SIM",
-      "hdh": "Android 11.0"
-    },
-    {
-      "id": 27,
-      "name": "Xiaomi Redmi Note 10S",
-      "price": 15000000,
-      "isNew": true,
-      "image": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/5/18/637569709583556232_xiaomi-note10s-xam-dd.jpg",
-      "categoryId": 3,
-      "screen": "6.43 inch, FHD+, AMOLED, 1080 x 2400 Pixel",
-      "camera": "64.0 MP + 8.0 MP + 2.0 MP + 2.0 MP, 13.0 MP",
-      "ram": "8 GB",
-      "rom": "128 GB",
-      "cpu": "MediaTek Helio G95",
-      "gpu": "Mali-G76 MC4",
-      "pin": "5000 mAh",
-      "sim": "2, Nano SIM",
-      "hdh": "Android 11.0"
+      "cpu": "Apple silicon",
+      "gpu": "Apple GPU",
+      "pin": "Lên đến 18 giờ",
+      "sim": "Wi-Fi 6",
+      "hdh": "Tương thích iPadOS",
+      "updatedAt": 1787392174172
     }
   ],
   "categories": [
     {
       "id": 1,
-      "name": "Apple"
+      "name": "iPhone"
     },
     {
       "id": 2,
-      "name": "Samsung"
+      "name": "Mac"
     },
     {
       "id": 3,
-      "name": "Xiaomi"
+      "name": "iPad"
+    },
+    {
+      "id": 4,
+      "name": "Apple Watch"
+    },
+    {
+      "id": 5,
+      "name": "AirPods"
+    },
+    {
+      "id": 6,
+      "name": "Phụ kiện Apple"
     }
   ],
   "comments": [
@@ -525,15 +481,6 @@
       "id": 4
     },
     {
-      "rate": 4,
-      "content": "Đẹp",
-      "productId": 7,
-      "userId": 1,
-      "createdAt": 1639986804684,
-      "updatedAt": 1639986804684,
-      "id": 5
-    },
-    {
       "rate": 5,
       "content": "đẹp",
       "productId": 3,
@@ -562,12 +509,12 @@
     },
     {
       "rate": 5,
-      "content": "Chuan, dep",
-      "productId": 6,
-      "userId": 1,
-      "createdAt": 1645104317258,
-      "updatedAt": 1645104317259,
-      "id": 9
+      "content": "dssfs",
+      "productId": 22,
+      "userId": 2,
+      "createdAt": 1768836916385,
+      "updatedAt": 1768836916386,
+      "id": 10
     }
   ],
   "infoForms": [
@@ -676,22 +623,6 @@
     },
     {
       "quantity": 1,
-      "productId": 5,
-      "productOptionId": false,
-      "createdAt": 1641287283979,
-      "updatedAt": 1641287283979,
-      "id": 13
-    },
-    {
-      "quantity": 1,
-      "productId": 3,
-      "productOptionId": false,
-      "createdAt": 1641287336028,
-      "updatedAt": 1641287336028,
-      "id": 14
-    },
-    {
-      "quantity": 1,
       "productId": 1,
       "productOptionId": 1,
       "createdAt": 1641288186165,
@@ -705,30 +636,6 @@
       "createdAt": 1641457467189,
       "updatedAt": 1641457467193,
       "id": 16
-    },
-    {
-      "quantity": 1,
-      "productId": 3,
-      "productOptionId": false,
-      "createdAt": 1641457481518,
-      "updatedAt": 1641457481518,
-      "id": 17
-    },
-    {
-      "quantity": 1,
-      "productId": 4,
-      "productOptionId": false,
-      "createdAt": 1641458596498,
-      "updatedAt": 1641458596498,
-      "id": 18
-    },
-    {
-      "quantity": 1,
-      "productId": 14,
-      "productOptionId": false,
-      "createdAt": 1641474402761,
-      "updatedAt": 1641474402762,
-      "id": 19
     },
     {
       "quantity": 1,
@@ -748,38 +655,6 @@
     },
     {
       "quantity": 1,
-      "productId": 2,
-      "productOptionId": false,
-      "createdAt": 1641481111867,
-      "updatedAt": 1641481111868,
-      "id": 22
-    },
-    {
-      "quantity": 1,
-      "productId": 2,
-      "productOptionId": false,
-      "createdAt": 1641481410901,
-      "updatedAt": 1641481410901,
-      "id": 23
-    },
-    {
-      "quantity": 1,
-      "productId": 2,
-      "productOptionId": false,
-      "createdAt": 1641481426602,
-      "updatedAt": 1641481426602,
-      "id": 24
-    },
-    {
-      "quantity": 1,
-      "productId": 2,
-      "productOptionId": false,
-      "createdAt": 1641481428941,
-      "updatedAt": 1641481428941,
-      "id": 25
-    },
-    {
-      "quantity": 1,
       "productId": 1,
       "productOptionId": 1,
       "createdAt": 1641481578461,
@@ -795,22 +670,6 @@
       "id": 27
     },
     {
-      "quantity": 6,
-      "productId": 7,
-      "productOptionId": false,
-      "createdAt": 1641481830733,
-      "updatedAt": 1641481885657,
-      "id": 28
-    },
-    {
-      "quantity": 2,
-      "productId": 8,
-      "productOptionId": false,
-      "createdAt": 1641481898937,
-      "updatedAt": 1641481899197,
-      "id": 29
-    },
-    {
       "quantity": 1,
       "productId": 1,
       "productOptionId": 1,
@@ -820,147 +679,11 @@
     },
     {
       "quantity": 1,
-      "productId": 8,
-      "productOptionId": false,
-      "createdAt": 1641482963103,
-      "updatedAt": 1641482963103,
-      "id": 31
-    },
-    {
-      "quantity": 1,
-      "productId": 2,
-      "productOptionId": false,
-      "createdAt": 1641483018364,
-      "updatedAt": 1641483018364,
-      "id": 32
-    },
-    {
-      "quantity": 1,
-      "productId": 2,
-      "productOptionId": false,
-      "createdAt": 1641483768395,
-      "updatedAt": 1641483768395,
-      "id": 33
-    },
-    {
-      "quantity": 1,
-      "productId": 2,
-      "productOptionId": false,
-      "createdAt": 1641483902194,
-      "updatedAt": 1641483902194,
-      "id": 34
-    },
-    {
-      "quantity": 1,
-      "productId": 2,
-      "productOptionId": false,
-      "createdAt": 1641484097588,
-      "updatedAt": 1641484097588,
-      "id": 35
-    },
-    {
-      "quantity": 1,
-      "productId": 3,
-      "productOptionId": false,
-      "createdAt": 1641484294352,
-      "updatedAt": 1641484294353,
-      "id": 36
-    },
-    {
-      "quantity": 1,
-      "productId": 3,
-      "productOptionId": false,
-      "createdAt": 1641484426219,
-      "updatedAt": 1641484426219,
-      "id": 37
-    },
-    {
-      "quantity": 1,
-      "productId": 8,
-      "productOptionId": false,
-      "createdAt": 1641484495125,
-      "updatedAt": 1641484495125,
-      "id": 38
-    },
-    {
-      "quantity": 1,
-      "productId": 2,
-      "productOptionId": false,
-      "createdAt": 1641484978757,
-      "updatedAt": 1641484978757,
-      "id": 39
-    },
-    {
-      "quantity": 1,
-      "productId": 2,
-      "productOptionId": false,
-      "createdAt": 1641485172198,
-      "updatedAt": 1641485172198,
-      "id": 40
-    },
-    {
-      "quantity": 1,
-      "productId": 2,
-      "productOptionId": false,
-      "createdAt": 1641485611237,
-      "updatedAt": 1641485611237,
-      "id": 41
-    },
-    {
-      "quantity": 1,
-      "productId": 4,
-      "productOptionId": false,
-      "createdAt": 1641485669115,
-      "updatedAt": 1641485669115,
-      "id": 42
-    },
-    {
-      "quantity": 1,
-      "productId": 4,
-      "productOptionId": false,
-      "createdAt": 1641485708694,
-      "updatedAt": 1641485708694,
-      "id": 43
-    },
-    {
-      "quantity": 1,
-      "productId": 4,
-      "productOptionId": false,
-      "createdAt": 1641485850612,
-      "updatedAt": 1641485850612,
-      "id": 44
-    },
-    {
-      "quantity": 1,
-      "productId": 4,
-      "productOptionId": false,
-      "createdAt": 1641486000941,
-      "updatedAt": 1641486000941,
-      "id": 45
-    },
-    {
-      "quantity": 1,
       "productId": 1,
       "productOptionId": 1,
       "createdAt": 1641547970957,
       "updatedAt": 1641547970958,
       "id": 46
-    },
-    {
-      "quantity": 1,
-      "productId": 4,
-      "productOptionId": false,
-      "createdAt": 1641548166697,
-      "updatedAt": 1641548166697,
-      "id": 47
-    },
-    {
-      "quantity": 1,
-      "productId": 3,
-      "productOptionId": false,
-      "createdAt": 1641564730052,
-      "updatedAt": 1641564730053,
-      "id": 48
     },
     {
       "quantity": 1,
@@ -980,19 +703,27 @@
     },
     {
       "quantity": 1,
-      "productId": 6,
-      "productOptionId": false,
-      "createdAt": 1645104324714,
-      "updatedAt": 1645104324714,
-      "id": 51
+      "productId": 1,
+      "productOptionId": 2,
+      "createdAt": 1645261091047,
+      "updatedAt": 1645261091048,
+      "id": 53
     },
     {
-      "quantity": 2,
-      "productId": 6,
-      "productOptionId": false,
-      "createdAt": 1645104503268,
-      "updatedAt": 1645104593984,
-      "id": 52
+      "quantity": 1,
+      "productId": 1,
+      "productOptionId": 2,
+      "createdAt": 1645269837039,
+      "updatedAt": 1645269837039,
+      "id": 54
+    },
+    {
+      "quantity": 1,
+      "productId": 1,
+      "productOptionId": 1,
+      "createdAt": 1646529711555,
+      "updatedAt": 1646529711556,
+      "id": 55
     }
   ],
   "orders": [
@@ -1047,6 +778,34 @@
       "createdAt": 1640159645601,
       "updatedAt": 1640159645603,
       "id": 3
+    },
+    {
+      "fullName": "Nguyen Dinh Kien",
+      "phoneNumber": "2345435345345",
+      "email": "kiennguyen0798@gmail.com",
+      "city": "Thành phố Hồ Chí Minh",
+      "district": "Quận 12",
+      "ward": "Phường Thạnh Lộc",
+      "address": "4534 nguyen van a",
+      "note": "ádasd",
+      "shipper": "giaohangnhanh",
+      "paymentType": "cod",
+      "userId": 2,
+      "products": [
+        {
+          "id": 17,
+          "cartId": 56,
+          "name": "MacBook Air M2 13 inch",
+          "price": 24990000,
+          "quantity": 1,
+          "option": null
+        }
+      ],
+      "totalPrice": 24990000,
+      "discountAmount": 0,
+      "createdAt": 1787646589930,
+      "updatedAt": 1787646589930,
+      "id": 4
     }
   ],
   "discounts": [

@@ -3,7 +3,7 @@ const auth = require("json-server-auth");
 const moment = require("moment");
 
 const server = jsonServer.create();
-const router = jsonServer.router("./db.json");
+const router = jsonServer.router("./db/db.json");
 
 const middlewares = jsonServer.defaults();
 
@@ -29,8 +29,24 @@ server.use((req, res, next) => {
   next();
 });
 
-const PORT = process.env.PORT || 4000;
-
 server.use(auth);
+
+server.use((req, res, next) => {
+  if (req.method === "POST" && req.path === "/orders" && Array.isArray(req.body.products)) {
+    req.body.products.forEach((orderProduct) => {
+      const product = server.db.get("products").find({ id: orderProduct.id });
+      const currentProduct = product.value();
+
+      if (currentProduct) {
+        product.assign({
+          soldCount: (currentProduct.soldCount || 0) + Number(orderProduct.quantity || 0),
+        }).write();
+      }
+    });
+  }
+
+  next();
+});
+
 server.use(router);
-server.listen(PORT);
+server.listen(4000);
